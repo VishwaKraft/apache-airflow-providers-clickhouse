@@ -81,10 +81,7 @@ dev = [
 [tool.uv.sources]
 # These names must match the names as defined in the pyproject.toml of the workspace items,
 # *not* the workspace folder paths
-apache-airflow = {workspace = true}
-apache-airflow-devel-common = {workspace = true}
-apache-airflow-task-sdk = {workspace = true}
-apache-airflow-providers-common-sql = {workspace = true}
+
 
 [project.urls]
 GitHub = "https://github.com/Datavolt/apache-airflow-providers-clickhouse"
